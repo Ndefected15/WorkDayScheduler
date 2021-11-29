@@ -21,35 +21,36 @@ var interval = setInterval(function () {
   );
 });
 
+// Idk why this wouldnt work for me in the localStorage :(
 function start() {
   localStorage.clear;
   console.log("Current Hour " + hour);
 
-  var init9 = JSON.parse(localStorage.getItem("09:00 am"));
+  var init9 = JSON.parse(localStorage.getItem("09:00am"));
   nine.val(init9);
 
-  var init10 = JSON.parse(localStorage.getItem("10:00 am"));
+  var init10 = JSON.parse(localStorage.getItem("10:00am"));
   ten.val(init10);
 
-  var init11 = JSON.parse(localStorage.getItem("11:00 am"));
+  var init11 = JSON.parse(localStorage.getItem("11:00am"));
   eleven.val(init11);
 
-  var init12 = JSON.parse(localStorage.getItem("12:00 pm"));
+  var init12 = JSON.parse(localStorage.getItem("12:00pm"));
   twelve.val(init12);
 
-  var init1 = JSON.parse(localStorage.getItem("01:00 pm"));
+  var init1 = JSON.parse(localStorage.getItem("01:00pm"));
   one.val(init1);
 
-  var init2 = JSON.parse(localStorage.getItem("02:00 pm"));
+  var init2 = JSON.parse(localStorage.getItem("02:00pm"));
   two.val(init2);
 
-  var init3 = JSON.parse(localStorage.getItem("03:00 pm"));
+  var init3 = JSON.parse(localStorage.getItem("03:00pm"));
   three.val(init3);
 
-  var init4 = JSON.parse(localStorage.getItem("04:00 pm"));
+  var init4 = JSON.parse(localStorage.getItem("04:00pm"));
   four.val(init4);
 
-  var init5 = JSON.parse(localStorage.getItem("05:00 pm"));
+  var init5 = JSON.parse(localStorage.getItem("05:00pm"));
   five.val(init5);
 }
 
