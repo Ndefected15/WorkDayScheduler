@@ -18,7 +18,7 @@
 
 - https://ndefected15.github.io/WorkDayScheduler/
 
-![alt text](https://github.com/Ndefected15/WorkDayScheduler/blob/main/Develop/images/screenshot.jpg?raw=true)
+![alt text](https://github.com/Ndefected15/WorkDayScheduler/blob/main/Develop/screenshot.jpg?raw=true)
 
 ## Contribution
 
